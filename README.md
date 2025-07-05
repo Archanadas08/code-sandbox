@@ -14,7 +14,31 @@ Doctoers can manage creating, editing availablity and leaves.
 Doctor profiles include information such as name, email, phone number, and a photo upload option.
 
 **Technologies Used**
+
 **Backend**
 
 C# ASP.NET Core
+endpoint: /doctor
+            {
+              "name": string,              
+              "email": string,
+              availability:string
+              "type": "doctor",
+                "patient":{
+                "name":string,
+                "appointmentDate": date
+                "reason":string  
+                }
+            }
+
+endpoint:/patient
+"patient":{
+                "name":string,
+                "appointmentDate": date
+                "reason":string  
+                }
+
+ data stored in MongoDB               
+
+
 
