@@ -1,3 +1,20 @@
 # code-sandbox
-the UI displays the provide dashboard for the doctor, giving details of the current date appointments and  previous patients list
-the api return the patient model and which contains patient name , appointment time  , reason, 
+This project is a Hospital booking management system built using ASP.NET Core MVC .
+
+**Login/Registration**
+User can login/Register as a Doctor / Patient 
+
+**User Management **
+user can view, create, edit doctoer appointments they made 
+can Edit user information password management.
+userprofile include patient name ,age, gender, selected doctor, appointment date, time and reason 
+
+**Doctor Management (Administrator)**
+Doctoers can manage creating, editing availablity and leaves.
+Doctor profiles include information such as name, email, phone number, and a photo upload option.
+
+**Technologies Used**
+**Backend**
+
+C# ASP.NET Core
+
